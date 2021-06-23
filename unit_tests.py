@@ -1,9 +1,9 @@
 import unittest
-from test import my_func
+from lambda_function import my_func
 
-class TestStringMethods(unittest.TestCase):
+class TestLambdaFunction(unittest.TestCase):
 
-    def test_test_file(self):
+    def test_my_func_return_type(self):
         self.assertEqual(my_func('foo'), 'FOO')
     
 
