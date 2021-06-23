@@ -15,7 +15,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Test the Python script "test.py"
-        run: python test.py
+        run: python lambda_function.py
         
       - name: Install dependencies
         run: |
