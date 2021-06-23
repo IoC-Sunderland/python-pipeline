@@ -8,7 +8,7 @@ def my_func(string):
 
 def lambda_handler(event, context):
   
-  my_func("foo")
+  print(my_func("foo"))
     
   return {
         # Required values when using Lambda Proxy Intergration:
