@@ -6,7 +6,7 @@ def lambda_handler(event, context):
   print('Hello from Lambda!')
   print(sys.version)
     
-    return {
+  return {
         # Required values when using Lambda Proxy Intergration:
         
         # statusCode
