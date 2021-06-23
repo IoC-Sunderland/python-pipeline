@@ -32,7 +32,7 @@ jobs:
           # Run unittest 
           python -m unittest "unit_tests.py"
 
-  package and deploy:
+  package-and-deploy:
 
     runs-on: ubuntu-latest
 
