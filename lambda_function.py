@@ -12,7 +12,7 @@ def lambda_handler(event, context):
     print(my_func("foo"))
     
     
-  return {
+    return {
         # Required values when using Lambda Proxy Intergration:
         
         # statusCode
