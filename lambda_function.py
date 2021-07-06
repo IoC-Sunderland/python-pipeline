@@ -7,11 +7,11 @@ def my_func(string):
     print(sys.version)
     return string.upper()
 
-  
+
 def lambda_handler(event, context):
     print(my_func("foo"))
-    
-    
+
+
     return {
         # Required values when using Lambda Proxy Intergration:
         
