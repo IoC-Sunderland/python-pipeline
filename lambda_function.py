@@ -14,11 +14,11 @@ def lambda_handler(event, context):
 
     return {
         # Required values when using Lambda Proxy Intergration:
-        
+
         # statusCode
         # headers
         # body
-        
+
         'statusCode': 200,
         'headers': {},
         'body': json.dumps(event)
